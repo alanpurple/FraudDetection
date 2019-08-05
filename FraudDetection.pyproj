@@ -23,6 +23,16 @@
   <ItemGroup>
     <Compile Include="FraudDetection.py" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\sample_submission.csv" />
+    <Content Include="data\test_identity.csv" />
+    <Content Include="data\test_transaction.csv" />
+    <Content Include="data\train_identity.csv" />
+    <Content Include="data\train_transaction.csv" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
        Visual Studio and specify your pre- and post-build commands in
