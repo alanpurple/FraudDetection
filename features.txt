@@ -1,0 +1,31 @@
+Identity ( size: 144233, unique id: 144233), 41 columns
+- TransactionID - id
+- id_01
+- id_11 - min 90, max 100, mean 99.745,   3255 nans
+- id_12 - 'Not Found', 'Found'
+- id_15 - 'New', 'Found', nan, 'Unknown'
+- id_16 - 'NotFound', 'Found', nan
+- id_29 - 'NotFound', 'Found', nan
+- id_30 - os with version
+
+Transacions ( size: 590540, unique id: 590540), 394 columns
+- TransactionID - id
+- isFraud - boolean
+- TransactionDT - DateTime
+- ProductCD - Product Type, W,H,C,S,R
+- card1 
+- card2
+- card3 - 
+- card4 - card provider, 'discover', 'mastercard', 'visa', 'american express', nan
+- card5
+- card6 - card type,  'credit', 'debit', nan, 'debit or credit', 'charge card'
+- addr1 - address code
+- addr2 - address code
+- dist1
+- dist2
+- P_emaildomain - primary email domain
+- R_emaildomain - mostly NaN(453249)
+- C1~C14
+- D1~D15
+- M1~M9 - 'T', nan, 'F',  more than half is NaN
+- V1 ~ V339 - mostly NaN or 0.0
