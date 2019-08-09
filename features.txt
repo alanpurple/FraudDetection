@@ -1,16 +1,27 @@
 Identity ( size: 144233, unique id: 144233), 41 columns
 - TransactionID - id
-- id_01
+- id_01 - min -100, max 0, mean -10.17
+- id_02 - min 1.0, max 999595, mean 174716.6
+- id_03 - min -13.0, max 10.0, mean 0.06
+- id_04 - min -28.0, max 0.0, mean 0.059
+- id_05 - min -72.0, max 52.0, mean 1.6156
+- id_06 - min -100.0, max 0.0, mean -6.7
+- id_07 - min -46.0, max 61.0, mean 13.285
+- id_08 - min -100.0, max 0.0, mean -38.6
+- id_09 - min -36.0, max 25.0, mean 0.091
+- id_10 - min -100.0, max 0.0, mean -0.301
 - id_11 - min 90, max 100, mean 99.745,   3255 nans
 - id_12 - 'Not Found', 'Found'
 - id_15 - 'New', 'Found', nan, 'Unknown'
 - id_16 - 'NotFound', 'Found', nan
 - id_29 - 'NotFound', 'Found', nan
 - id_30 - os with version
+- DeviceType - 'mobile', 'desktop', nan,   3423 NaNs
+- DeviceInfo - specific device model name and build number,   1787
 
 Transacions ( size: 590540, unique id: 590540), 394 columns
 - TransactionID - id
-- isFraud - boolean
+- isFraud - boolean    20063
 - TransactionDT - DateTime
 - ProductCD - Product Type, W,H,C,S,R
 - card1 
