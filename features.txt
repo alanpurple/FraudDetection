@@ -32,11 +32,11 @@ Transacions ( size: 590540, unique id: 590540), 394 columns
 - card6 - card type,  'credit', 'debit', nan, 'debit or credit', 'charge card'
 - addr1 - address code
 - addr2 - address code
-- dist1
-- dist2
+- dist1 - mostly NaN 352271
+- dist2 - almost NaN everywhere, 552913
 - P_emaildomain - primary email domain
 - R_emaildomain - mostly NaN(453249)
-- C1~C14
-- D1~D15
+- C1~C14  -  no NaNs
+- D1~D15 - mostly NaNs, D1 with 1269 NaN
 - M1~M9 - 'T', nan, 'F',  more than half is NaN
 - V1 ~ V339 - mostly NaN or 0.0
