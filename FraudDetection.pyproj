@@ -32,6 +32,7 @@
     <Content Include="data\test_transaction.csv" />
     <Content Include="data\train_identity.csv" />
     <Content Include="data\train_transaction.csv" />
+    <Content Include="features.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
