@@ -28,11 +28,11 @@ Transacions ( size: 590540, unique id: 590540), 394 columns
 - isFraud - boolean    20063
 - TransactionDT - DateTime
 - ProductCD - Product Type, W,H,C,S,R
-- card1 
-- card2
-- card3 - 
+- card1 - numerical but categorical 
+- card2 - numerical but categorical 
+- card3 - numerical but categorical 
 - card4 - card provider, 'discover', 'mastercard', 'visa', 'american express', nan
-- card5
+- card5 - numerical but categorical 
 - card6 - card type,  'credit', 'debit', nan, 'debit or credit', 'charge card'
 - addr1 - address code
 - addr2 - address code
